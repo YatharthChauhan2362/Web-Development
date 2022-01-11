@@ -1,0 +1,38 @@
+<!-- This Program was Created By Yatharth Chauhan -->
+
+<!-- Inline elements are those elements which only occupy the space bounded by the tags defining the element, instead of breaking the flow of element. On the other hand, block-level elements take up the entire space of its parent element. Let us understand this with an example-
+
+If we write any text in the paragraph tag like this-
+
+<p>This is a paragraph</p>
+
+<p>This is also a paragraph</p>
+OR
+
+<p>This is a paragraph</p> <p>This is also a paragraph</p>
+
+The Block element means that it will take the full width of a single line and does not allow any other content to fit in it. But, if we write both the texts between the <span> tags like-
+
+    <span>This is a paragraph</span> <span>This is also a paragraph</span>
+    Then we see that both the texts will appear in the same line. It is because the <span> tag is an inline element. It allows all the elements in the same line.
+    
+    To understand it more, we can take the help of CSS by applying the border. However, you need not worry about the border as it is a part of CSS. I’m using this just for the case of an example. 
+    
+    <p style= “border: 2px solid, red;”>This is a paragraph</p> <p style= “border: 2ox solid blue;”>This is also a paragraph</p>
+
+    <span style= “border: 2px solid red;”>This is a span</span> <span style = “border: 2px solid red;”>This is also a span</span> -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inline and Block elements</title>
+</head>
+<body>
+    <strong style="border: 2px solid red;">this is a paragraph</strong> <a style="border: 2px solid blue;">
+        this is also a paragraph</a>
+    <span style="border: 2px solid red;">this is a span</span> <span style="border: 2px solid red;">this is also a span</span>
+</body>
+</html>
