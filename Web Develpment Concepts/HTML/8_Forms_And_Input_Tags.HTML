@@ -1,4 +1,4 @@
- <!-- This Program was Created By Yatharth Chauhan --> 
+<!-- This Program was Created By Yatharth Chauhan -->
 
 <!-- 
     Whenever we add a <form> tag in the HTML, it is going to ask for some action for submitting that particular form in the backend for future reference. So, for now, we will write it as backend.php. All the data submitted in a form will be stored automatically in the backend “backend.php” after submitting it.
@@ -65,17 +65,29 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Forms</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <h2>This is HTML forms tutorial</h2>
-    <form action="backend.php">
+    <div
+      class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-20 e-form__buttons elementor-sm-100"
+    >
+      <form action="signup.php" method="post">
+        <button type="submit" class="elementor-button elementor-size-md">
+          <span>
+            <span class="elementor-button-icon"> </span>
+            <span class="elementor-button-text">Sign Up</span>
+          </span>
+        </button>
+      </form>
+    </div>
+
+    <!-- <form action="backend.php">
         <label for="name"> Name</label>
         <div>
             <input type="text" name="myName" id="name">
@@ -126,7 +138,6 @@
             <input type="submit" value="Submit Now">
             <input type="reset" value="Reset Now">
         </div>
-    </form>
-</body>
-
+    </form> -->
+  </body>
 </html>
